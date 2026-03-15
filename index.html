@@ -227,7 +227,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
   </div>
   <div class="cards-grid">
 
-    <a class="conf-card" style="--card-color:#1a6b8a" href="javascript:void(0)" onclick="openModal('ica')">
+    <a class="conf-card" style="--card-color:#1a6b8a" href="#" data-modal="ica">
       <div class="card-badge">International</div>
       <div class="card-header">
         <div class="card-code">ICAPCMSSD 2026</div>
@@ -243,7 +243,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
       </div>
     </a>
 
-    <a class="conf-card" style="--card-color:#5a3a7a" href="javascript:void(0)" onclick="openModal('ss')">
+    <a class="conf-card" style="--card-color:#5a3a7a" href="#" data-modal="ss">
       <div class="card-badge">National Seminar</div>
       <div class="card-header">
         <div class="card-code">National Seminar · Hybrid Mode</div>
@@ -259,7 +259,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
       </div>
     </a>
 
-    <a class="conf-card" style="--card-color:#8a4a14" href="javascript:void(0)" onclick="openModal('hum')">
+    <a class="conf-card" style="--card-color:#8a4a14" href="#" data-modal="hum">
       <div class="card-badge">National Seminar</div>
       <div class="card-header">
         <div class="card-code">Humanities Seminar · 2026</div>
@@ -315,7 +315,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
   <div class="footer-logo">Bhaurao Kakatkar College, Belgaum</div>
   <div class="footer-text">
     Jyoti College Compound, Club Road, Camp, Belgaum – 590001, Karnataka, India<br>
-    ✉ <a href="mailto:bkcollegebgm@gmail.com">bkcollegebgm@gmail.com</a> &nbsp;|&nbsp;
+    ✉ <a href="/cdn-cgi/l/email-protection#e38188808c8f8f86848681848ea3848e828a8fcd808c8e"><span class="__cf_email__" data-cfemail="533138303c3f3f36343631343e13343e323a3f7d303c3e">[email&#160;protected]</span></a> &nbsp;|&nbsp;
     🌐 <a href="http://www.bkcollegebgm.org" target="_blank">www.bkcollegebgm.org</a>
   </div>
   <div class="social-links">
@@ -337,7 +337,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
 <div class="modal-overlay" id="modal-ica">
   <div class="modal-box">
     <div class="modal-hero" style="background:linear-gradient(135deg,#0d1b2a,#0a2a3a)">
-      <button class="modal-close" onclick="closeModal('ica')">✕</button>
+      <button class="modal-close" data-close="ica">✕</button>
       <span class="modal-type">International Conference · 08 May 2026 · ICAPCMSSD 2026</span>
       <div class="modal-title">Advances in Physical, Chemical and Mathematical Sciences for Sustainable Development</div>
     </div>
@@ -349,12 +349,12 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
         <div class="info-chip">🏆 Best Poster &amp; Oral Award</div>
       </div>
       <div class="tab-nav">
-        <button class="tab-btn active" onclick="switchTab(this,'ica-about')">About</button>
-        <button class="tab-btn" onclick="switchTab(this,'ica-themes')">Themes</button>
-        <button class="tab-btn" onclick="switchTab(this,'ica-speakers')">Guest Speakers</button>
-        <button class="tab-btn" onclick="switchTab(this,'ica-papers')">Call for Papers</button>
-        <button class="tab-btn" onclick="switchTab(this,'ica-reg')">Registration</button>
-        <button class="tab-btn" onclick="switchTab(this,'ica-committee')">Committee</button>
+        <button class="tab-btn active" data-tab='ica-about'>About</button>
+        <button class="tab-btn" data-tab='ica-themes'>Themes</button>
+        <button class="tab-btn" data-tab='ica-speakers'>Guest Speakers</button>
+        <button class="tab-btn" data-tab='ica-papers'>Call for Papers</button>
+        <button class="tab-btn" data-tab='ica-reg'>Registration</button>
+        <button class="tab-btn" data-tab='ica-committee'>Committee</button>
       </div>
 
       <div class="tab-content active" id="ica-about">
@@ -491,7 +491,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
 <div class="modal-overlay" id="modal-ss">
   <div class="modal-box">
     <div class="modal-hero" style="background:linear-gradient(135deg,#1a0d2e,#2e1a4a)">
-      <button class="modal-close" onclick="closeModal('ss')">✕</button>
+      <button class="modal-close" data-close="ss">✕</button>
       <span class="modal-type">One Day National Seminar · Hybrid Mode · 18 April 2026</span>
       <div class="modal-title">Social Sciences in the Age of AI: History, Policy, and Society</div>
     </div>
@@ -503,12 +503,12 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
         <div class="info-chip">💻 Hybrid Mode</div>
       </div>
       <div class="tab-nav">
-        <button class="tab-btn active" onclick="switchTab(this,'ss-about')">About</button>
-        <button class="tab-btn" onclick="switchTab(this,'ss-themes')">Sub-Themes</button>
-        <button class="tab-btn" onclick="switchTab(this,'ss-speakers')">Guest Speakers</button>
-        <button class="tab-btn" onclick="switchTab(this,'ss-papers')">Call for Papers</button>
-        <button class="tab-btn" onclick="switchTab(this,'ss-reg')">Registration</button>
-        <button class="tab-btn" onclick="switchTab(this,'ss-committee')">Committee</button>
+        <button class="tab-btn active" data-tab='ss-about'>About</button>
+        <button class="tab-btn" data-tab='ss-themes'>Sub-Themes</button>
+        <button class="tab-btn" data-tab='ss-speakers'>Guest Speakers</button>
+        <button class="tab-btn" data-tab='ss-papers'>Call for Papers</button>
+        <button class="tab-btn" data-tab='ss-reg'>Registration</button>
+        <button class="tab-btn" data-tab='ss-committee'>Committee</button>
       </div>
 
       <div class="tab-content active" id="ss-about">
@@ -620,7 +620,7 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
 <div class="modal-overlay" id="modal-hum">
   <div class="modal-box">
     <div class="modal-hero" style="background:linear-gradient(135deg,#1a0d05,#3a1a08)">
-      <button class="modal-close" onclick="closeModal('hum')">✕</button>
+      <button class="modal-close" data-close="hum">✕</button>
       <span class="modal-type">One Day National Seminar · Dept. of Humanities · 21 April 2026</span>
       <div class="modal-title">Bridging the Past and Future: Indian Knowledge Systems in Contemporary Society</div>
     </div>
@@ -632,12 +632,12 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
         <div class="info-chip">📄 SRUJAN Journal (ISSN: 2320-0391)</div>
       </div>
       <div class="tab-nav">
-        <button class="tab-btn active" onclick="switchTab(this,'hum-about')">About</button>
-        <button class="tab-btn" onclick="switchTab(this,'hum-themes')">Sub-Themes</button>
-        <button class="tab-btn" onclick="switchTab(this,'hum-speakers')">Guest Speakers</button>
-        <button class="tab-btn" onclick="switchTab(this,'hum-papers')">Call for Papers</button>
-        <button class="tab-btn" onclick="switchTab(this,'hum-reg')">Registration</button>
-        <button class="tab-btn" onclick="switchTab(this,'hum-committee')">Committee</button>
+        <button class="tab-btn active" data-tab='hum-about'>About</button>
+        <button class="tab-btn" data-tab='hum-themes'>Sub-Themes</button>
+        <button class="tab-btn" data-tab='hum-speakers'>Guest Speakers</button>
+        <button class="tab-btn" data-tab='hum-papers'>Call for Papers</button>
+        <button class="tab-btn" data-tab='hum-reg'>Registration</button>
+        <button class="tab-btn" data-tab='hum-committee'>Committee</button>
       </div>
 
       <div class="tab-content active" id="hum-about">
@@ -729,4 +729,4 @@ footer { background: #07101a; padding: 38px 24px 22px; text-align: center; }
           <h3 style="margin-top:22px">Contact</h3>
           <div class="contact-grid">
             <div class="contact-card"><div class="contact-name">College Office</div><div class="contact-phone">📞 9011573977 / 9663880264</div><div class="contact-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="87e5ece4e8ebebe2e0e2e5e0eac7e0eae6eeeba9e4e8ea">[email&#160;protected]</a></div></div>
-            <div class="contact-card"><div class="contact-name">Paper Submission</div><div class="contact-phone"></div><div class="contact-email"><a href="/cdn-cgi/l/email-protection" class="_
+            <div class="contact-card"><div class="c
